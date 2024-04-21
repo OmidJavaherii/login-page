@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { CiUser, CiWallet } from "react-icons/ci";
 import { IoShieldCheckmarkOutline } from 'react-icons/io5';
 import { TbLogout } from 'react-icons/tb';
@@ -23,7 +24,7 @@ export default function Profile() {
             <div className="text-2xl pt-5 flex pl-4 flex-col gap-4">
                 <div className="flex gap-4 items-center">
                     <CiUser />
-                    <button>Edit Profile</button>
+                    <Link to='/edit'>Edit Profile</Link>
                 </div>
                 <div className="flex gap-4 items-center">
                     <CiWallet />
