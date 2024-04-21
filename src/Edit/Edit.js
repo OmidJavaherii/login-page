@@ -28,19 +28,10 @@ export default function Edit() {
                     <input type="text" placeholder='Omid' className='bg-bg border-1 w-full rounded-lg px-5 py-2.5' />
 
                     <input type="date" value={date} onChange={(event) => setDate(event.target.value)} pattern="\d{4}-\d{2}-\d{2}" className='bg-bg border-1 rounded-lg w-full px-5 py-2.5' />
-                    {/* <input
-                        type="text"
-                        placeholder='MM/DD/YYYY'
-                        className='bg-bg border-1 rounded-lg w-full px-5 py-2.5'
-                        onChange={(e) => console.log(e.target.value)}
-                        onFocus={(e) => (e.target.type = "date")}
-                        onBlur={(e) => (e.target.type = "text")}
-                    /> */}
-                    {/* <Calender/> */}
 
                     <input type="email" placeholder='omid138089@gmail.com' className='bg-bg w-full border-1 rounded-lg px-5 py-2.5' />
 
-                    <input type="number" placeholder='+98 9138100702' className='bg-bg w-full border-1 rounded-lg px-5 py-2.5' />
+                    <input type="tel" placeholder='+989138100702' className='bg-bg w-full border-1 rounded-lg px-5 py-2.5' />
                     <DropDown />
 
                     <div className='fixed w-full px-5 bottom-20 inset-x-0'>
